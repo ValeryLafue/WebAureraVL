@@ -1,2 +1,0 @@
-# aurera
-Site aurera
