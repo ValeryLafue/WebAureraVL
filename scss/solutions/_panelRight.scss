@@ -1,0 +1,36 @@
+$backgColor:#ececec;
+$themeColor:#f4ca18;
+
+/* PANEL SLIDE DROITE */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    right: 0;
+    background-color: $backgColor;
+    transition: 0.7s ease-in-out;
+}
+
+.descriptifSolutions {
+    padding-left: 10%;
+    margin-right: 10%;
+    padding-right: 20px;
+    text-align: center;
+    display: none;
+}
+
+.closebtn {
+    padding-left: 20%;
+}
+
+.fermeture {
+    padding-top: 10%;
+    display: none;
+}
+
+.panelSolutions {
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+}

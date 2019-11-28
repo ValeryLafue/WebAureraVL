@@ -1,0 +1,52 @@
+$backgColor:#ececec;
+$themeColor:#f4ca18;
+
+/* Fond d'écran */
+
+.container-fluid {
+    opacity: 1;
+    /* Full height */
+    height: 85%;
+    /* Center and scale the image nicely */
+    background: {
+        position: center;
+        repeat: no-repeat;
+        size: cover;
+    }
+}
+
+.row {
+    align-items: center;
+    padding-top: 8vw;
+}
+
+
+/* PAGE BOUTON JAUNE !!*/
+
+#boutonsJaune>a {
+    color: $backgColor;
+    background-color: $themeColor;
+    border-color: $themeColor;
+    min-width: 220px;
+    max-width: 280px;
+    margin-bottom: 30px;
+    height: 80px;
+    transition: 0.5s;
+    opacity: 0.7;
+    &:hover {
+        background-color: $themeColor;
+        border-color: $backgColor;
+        text-decoration: none;
+        opacity: 1;
+        transition: 1s background-color, 1s border-color, 1s opacity;
+    }
+    &:focus {
+        box-shadow: none;
+    }
+}
+
+.boutonUneLigne {
+    padding-top: 20px;
+}
+
+@import '_panelRight';
