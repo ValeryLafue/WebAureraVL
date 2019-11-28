@@ -1,0 +1,399 @@
+.texte {
+    margin-top: 8%;
+    text-align: justify;
+    overflow: auto;
+    max-height: 360px;
+    max-width: 680px;
+}
+
+.debut::first-letter {
+    font-size: 3.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 0.2em;
+    color: dimgray;
+    float: left;
+    font-weight: 800;
+}
+
+.texte>p {
+    font-size: 1.15vw;
+}
+
+.axe {
+    animation: line 8s;
+    animation-fill-mode: both;
+    animation-delay: 1s;
+    height: 100vw;
+    width: 7px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    margin-top: 4vw;
+    margin-left: 50%;
+    transform: translate(-50%, 0%);
+    position: absolute;
+    background-color: #f4ca18;
+}
+
+#d2002 p {
+    animation: waou 1s;
+    animation-fill-mode: both;
+    animation-delay: 2.0s;
+    height: 26px;
+    width: 26px;
+    margin-top: 6vw;
+    margin-left: 57%;
+    transform: translate(0%, -85%);
+    position: absolute;
+    color: dimgray;
+    font-size: 3vw;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#d2005 p {
+    animation: waou 1s;
+    animation-fill-mode: both;
+    animation-delay: 2.7s;
+    height: 26px;
+    width: 26px;
+    margin-top: 10.5vw;
+    margin-left: 21%;
+    transform: translate(0%, -75%);
+    position: absolute;
+    color: dimgray;
+    font-size: 3vw;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#d2016 p {
+    animation: waou 1s;
+    animation-fill-mode: both;
+    animation-delay: 3.5s;
+    height: 26px;
+    width: 26px;
+    margin-top: 17vw;
+    margin-left: 57%;
+    transform: translate(0%, -85%);
+    position: absolute;
+    color: dimgray;
+    font-size: 3vw;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#d2019 p {
+    animation: waou 1s;
+    animation-fill-mode: both;
+    animation-delay: 4.4s;
+    height: 26px;
+    width: 26px;
+    margin-top: 22vw;
+    margin-left: 21%;
+    transform: translate(0%, -75%);
+    position: absolute;
+    color: dimgray;
+    font-size: 3vw;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#d2027 p {
+    animation: waou 1s;
+    animation-fill-mode: both;
+    animation-delay: 6.4s;
+    height: 26px;
+    width: 26px;
+    margin-top: 30vw;
+    margin-left: 57%;
+    transform: translate(0%, -85%);
+    position: absolute;
+    color: dimgray;
+    font-size: 3vw;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#t2002 p {
+    animation: waoup 1s;
+    animation-fill-mode: both;
+    animation-delay: 2.1s;
+    margin-top: 7.3vw;
+    margin-left: 54%;
+    transform: translate(12%, 80%);
+    position: absolute;
+    color: dimgray;
+    font-size: 1vw;
+}
+
+#t2005 p {
+    animation: waoup 1s;
+    animation-fill-mode: both;
+    animation-delay: 2.8s;
+    margin-top: 10.5vw;
+    margin-right: 100%;
+    width: 100%;
+    transform: translate(-57%, 50%);
+    position: absolute;
+    color: dimgray;
+    font-size: 1vw;
+    text-align: right;
+}
+
+#t2016 p {
+    animation: waoup 1s;
+    animation-fill-mode: both;
+    animation-delay: 3.6s;
+    margin-top: 16.6vw;
+    margin-left: 57%;
+    transform: translate(0%, 195%);
+    position: absolute;
+    color: dimgray;
+    font-size: 1vw;
+}
+
+#t2019 p {
+    animation: waoup 1s;
+    animation-fill-mode: both;
+    animation-delay: 4.5s;
+    margin-top: 22vw;
+    margin-right: 100%;
+    width: 100%;
+    transform: translate(-58%, 60%);
+    position: absolute;
+    color: dimgray;
+    font-size: 1vw;
+    text-align: right;
+}
+
+#t2027 p {
+    animation: waoup 1s;
+    animation-fill-mode: both;
+    animation-delay: 6.5s;
+    margin-top: 30vw;
+    margin-left: 57%;
+    transform: translate(0%, 60%);
+    position: absolute;
+    color: dimgray;
+    font-size: 1vw;
+}
+
+#point1 {
+    animation: pop 0.3s;
+    animation-fill-mode: both;
+    animation-delay: 1.7s;
+    height: 26px;
+    width: 26px;
+    margin-top: 6vw;
+    margin-left: 50%;
+    transform: translate(-50%, 0%);
+    border-radius: 50%;
+    position: absolute;
+    background-color: #f4ca18;
+}
+
+#point2 {
+    animation: pop 0.3s;
+    animation-fill-mode: both;
+    animation-delay: 2.4s;
+    height: 26px;
+    width: 26px;
+    margin-top: 10.5vw;
+    margin-left: 50%;
+    transform: translate(-50%, 0%);
+    border-radius: 50%;
+    position: absolute;
+    background-color: #f4ca18;
+}
+
+#point3 {
+    animation: pop 0.3s;
+    animation-fill-mode: both;
+    animation-delay: 3.2s;
+    height: 26px;
+    width: 26px;
+    margin-top: 17vw;
+    margin-left: 50%;
+    transform: translate(-50%, 0%);
+    border-radius: 50%;
+    position: absolute;
+    background-color: #f4ca18;
+}
+
+#point4 {
+    animation: pop 0.3s;
+    animation-fill-mode: both;
+    animation-delay: 4.1s;
+    height: 26px;
+    width: 26px;
+    margin-top: 22vw;
+    margin-left: 50%;
+    transform: translate(-50%, 0%);
+    border-radius: 50%;
+    position: absolute;
+    background-color: #f4ca18;
+}
+
+#point5 {
+    animation: pop 0.3s;
+    animation-fill-mode: both;
+    animation-delay: 6.1s;
+    height: 26px;
+    width: 26px;
+    margin-top: 30vw;
+    margin-left: 50%;
+    transform: translate(-50%, 0%);
+    border-radius: 50%;
+    position: absolute;
+    background-color: #f4ca18;
+}
+
+#rond1 {
+    animation: popblanc 0.3s;
+    animation-fill-mode: both;
+    animation-delay: 1.7s;
+    height: 13px;
+    width: 13px;
+    margin-top: 6vw;
+    margin-left: 50%;
+    transform: translate(-50%, 50%);
+    border-radius: 50%;
+    position: absolute;
+    background-color: #ececec;
+}
+
+#rond2 {
+    animation: popblanc 0.3s;
+    animation-fill-mode: both;
+    animation-delay: 2.4s;
+    height: 13px;
+    width: 13px;
+    margin-top: 10.5vw;
+    margin-left: 50%;
+    transform: translate(-50%, 50%);
+    border-radius: 50%;
+    position: absolute;
+    background-color: #ececec;
+}
+
+#rond3 {
+    animation: popblanc 0.3s;
+    animation-fill-mode: both;
+    animation-delay: 3.2s;
+    height: 13px;
+    width: 13px;
+    margin-top: 17vw;
+    margin-left: 50%;
+    transform: translate(-50%, 50%);
+    border-radius: 50%;
+    position: absolute;
+    background-color: #ececec;
+}
+
+#rond4 {
+    animation: popblanc 0.3s;
+    animation-fill-mode: both;
+    animation-delay: 4.1s;
+    height: 13px;
+    width: 13px;
+    margin-top: 22vw;
+    margin-left: 50%;
+    transform: translate(-50%, 50%);
+    border-radius: 50%;
+    position: absolute;
+    background-color: #ececec;
+}
+
+#rond5 {
+    animation: popblanc 0.3s;
+    animation-fill-mode: both;
+    animation-delay: 6.1s;
+    height: 13px;
+    width: 13px;
+    margin-top: 30vw;
+    margin-left: 50%;
+    transform: translate(-50%, 50%);
+    border-radius: 50%;
+    position: absolute;
+    background-color: #ececec;
+}
+
+@keyframes line {
+    from {
+        height: 0%;
+    }
+    to {
+        height: 100%;
+    }
+}
+
+@keyframes waou {
+    0% {
+        visibility: hidden;
+        opacity: 0;
+    }
+    80% {
+        visibility: visible;
+        opacity: 1;
+        font-size: 3.1vw;
+    }
+    100% {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+@keyframes waoup {
+    0% {
+        visibility: hidden;
+        opacity: 0;
+    }
+    100% {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+@keyframes pop {
+    0% {
+        visibility: hidden;
+        opacity: 0;
+        height: 7px;
+        width: 7px;
+    }
+    70% {
+        visibility: visible;
+        opacity: 1;
+        height: 33px;
+        width: 33px;
+    }
+    100% {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+@keyframes popblanc {
+    0% {
+        visibility: hidden;
+        opacity: 0;
+        height: 5px;
+        width: 5px;
+    }
+    70% {
+        visibility: visible;
+        opacity: 1;
+        height: 16px;
+        width: 16px;
+    }
+    100% {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+.friseChrono {
+    position: absolute;
+    height: 35vw;
+    margin-top: 3vw;
+}

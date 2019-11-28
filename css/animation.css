@@ -1,0 +1,44 @@
+/* @import "compass/css3"; */
+
+body {
+    background: #ececec;
+    overflow: hidden;
+}
+
+figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 100vw;
+}
+
+svg {
+    padding: 2vw 10vw 15vw 25vw;
+    width: 100vw;
+}
+
+svg>* {
+    fill: #f4ca18;
+    stroke: #f4ca18;
+    stroke-width: 0.85px;
+}
+
+.slide-left {
+    animation: slide-left 1500ms;
+    animation-fill-mode: both;
+    animation-delay: 100ms;
+}
+
+@keyframes slide-left {
+    from {
+        margin-left: 100%;
+        width: 300%;
+        opacity: 0;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+        opacity: 1;
+    }
+}

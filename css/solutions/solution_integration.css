@@ -1,0 +1,97 @@
+@charset "UTF-8";
+/* Fond d'écran */
+/* line 6, ../../Users/lafue/OneDrive - AURERA/Documents/Site AURERA/Web Aurera/scss/solutions/_chapitreSolutions.scss */
+.container-fluid {
+  opacity: 1;
+  /* Full height */
+  height: 85%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 18, ../../Users/lafue/OneDrive - AURERA/Documents/Site AURERA/Web Aurera/scss/solutions/_chapitreSolutions.scss */
+.row {
+  align-items: center;
+  padding-top: 8vw;
+}
+
+/* PAGE BOUTON JAUNE !!*/
+/* line 26, ../../Users/lafue/OneDrive - AURERA/Documents/Site AURERA/Web Aurera/scss/solutions/_chapitreSolutions.scss */
+#boutonsJaune > a {
+  color: #ececec;
+  background-color: #f4ca18;
+  border-color: #f4ca18;
+  min-width: 220px;
+  max-width: 280px;
+  margin-bottom: 30px;
+  height: 80px;
+  transition: 0.5s;
+  opacity: 0.7;
+}
+
+/* line 36, ../../Users/lafue/OneDrive - AURERA/Documents/Site AURERA/Web Aurera/scss/solutions/_chapitreSolutions.scss */
+#boutonsJaune > a:hover {
+  background-color: #f4ca18;
+  border-color: #ececec;
+  text-decoration: none;
+  opacity: 1;
+  transition: 1s background-color, 1s border-color, 1s opacity;
+}
+
+/* line 43, ../../Users/lafue/OneDrive - AURERA/Documents/Site AURERA/Web Aurera/scss/solutions/_chapitreSolutions.scss */
+#boutonsJaune > a:focus {
+  box-shadow: none;
+}
+
+/* line 48, ../../Users/lafue/OneDrive - AURERA/Documents/Site AURERA/Web Aurera/scss/solutions/_chapitreSolutions.scss */
+.boutonUneLigne {
+  padding-top: 20px;
+}
+
+/* PANEL SLIDE DROITE */
+/* line 6, ../../Users/lafue/OneDrive - AURERA/Documents/Site AURERA/Web Aurera/scss/solutions/_panelRight.scss */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  right: 0;
+  background-color: #ececec;
+  transition: 0.7s ease-in-out;
+}
+
+/* line 15, ../../Users/lafue/OneDrive - AURERA/Documents/Site AURERA/Web Aurera/scss/solutions/_panelRight.scss */
+.descriptifSolutions {
+  padding-left: 10%;
+  margin-right: 10%;
+  padding-right: 20px;
+  text-align: center;
+  display: none;
+}
+
+/* line 23, ../../Users/lafue/OneDrive - AURERA/Documents/Site AURERA/Web Aurera/scss/solutions/_panelRight.scss */
+.closebtn {
+  padding-left: 20%;
+}
+
+/* line 27, ../../Users/lafue/OneDrive - AURERA/Documents/Site AURERA/Web Aurera/scss/solutions/_panelRight.scss */
+.fermeture {
+  padding-top: 10%;
+  display: none;
+}
+
+/* line 32, ../../Users/lafue/OneDrive - AURERA/Documents/Site AURERA/Web Aurera/scss/solutions/_panelRight.scss */
+.panelSolutions {
+  position: relative;
+  top: 40%;
+  transform: translateY(-50%);
+}
+
+/* line 2, ../../Users/lafue/OneDrive - AURERA/Documents/Site AURERA/Web Aurera/scss/solutions/solution_integration.scss */
+.container-fluid {
+  /* The image used */
+  background-image: url("../../img/wallpapers/integration.jpg");
+}
+
+/*# sourceMappingURL=solution_integration.css.map */

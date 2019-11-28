@@ -1,0 +1,88 @@
+        .partner {
+            position: absolute;
+            margin-top: 42vh;
+            margin-left: 6vw;
+        }
+        
+        .bg {
+            /* The image used */
+            background-image: url("../img/wallpapers/PhotoAccueil.png");
+            background-color: #ececec;
+            opacity: 1;
+            /* Full height */
+            height: 90%;
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .bg.zoom {
+            animation: zoom 2s;
+            animation-fill-mode: both;
+            animation-delay: 800ms;
+            transition-timing-function: ease-in;
+        }
+        
+        .margeTitre {
+            margin-top: 4vw;
+            width: 90vw;
+        }
+        
+        .pourUne {
+            padding-top: 10px;
+        }
+        
+        .efficace {
+            margin-right: 20px;
+            font-size: 200%;
+            font-weight: 200;
+            line-height: 1em;
+        }
+        
+        .light {
+            font-size: 120%;
+            font-weight: 200;
+            line-height: 1em;
+        }
+        
+        .transformation {
+            padding-top: 5px;
+        }
+        
+        #vous {
+            position: absolute;
+            font-size: 120%;
+            font-weight: 200;
+            line-height: 1em;
+        }
+        
+        @keyframes zoom {
+            0% {
+                opacity: 1;
+            }
+            20% {
+                opacity: 0.9;
+            }
+            80% {
+                transform: scale(1.8);
+                opacity: 0;
+            }
+            100% {
+                transform: scale(2.8);
+                opacity: 0;
+            }
+        }
+        
+        @media (max-width: 640px) {
+            .navbar-logo {
+                width: 130px;
+                position: absolute;
+                left: 50%;
+                margin-left: -50px !important;
+                /* 50% of your logo width */
+            }
+            button {
+                display: none;
+            }
+        }

@@ -1,0 +1,100 @@
+.purple {
+  border: solid blue 1px;
+}
+
+.welcome {
+  margin-top: 20%;
+  margin-bottom: 15%;
+}
+
+.boutonsJaune>a {
+  color: #fff !important;
+  background-color: #f4ca18;
+  border-color: #f4ca18;
+  width: 60%;
+  transition: 0.5s;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.boutonsJaune>a:hover {
+  background-color: #f4ca18;
+  border-color: white;
+  text-decoration: none;
+  transition: 1s background-color, 1s border-color;
+}
+
+.boutonsJaune>a:focus {
+  box-shadow: none;
+}
+
+.separationBlanche {
+  border-left: solid white 2px;
+  margin-top: 5%;
+}
+
+.textePresentation {
+  margin-top: 20%;
+  margin-left: 20%;
+}
+
+.textePresentation>h5, .textePresentation>p {
+  text-align: center;
+}
+
+.fleche {
+
+  margin: 5% auto 0 auto;
+}
+
+/* Page TROMBI EQUIPE */
+
+.controls-top {
+    text-align: center;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .imageEquipe:hover .image {
+    opacity: 0.2;
+  }
+  
+  .imageEquipe:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: transparent;
+    color: black;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+  .containerImage {
+      padding: 0;
+  }
+
+.icon{
+vertical-align: -1px;
+}
+
+/* FIN Page EQUIPE */
+

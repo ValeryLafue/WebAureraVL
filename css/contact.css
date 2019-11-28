@@ -1,0 +1,82 @@
+.texte {
+    border-left: solid white 2px;
+    margin-top: 18%;
+    margin-bottom: 10%;
+}
+
+.texte>h4 {
+    margin-top: 5%;
+    color: #f4ca18;
+}
+
+.texte>p {
+    margin: 0;
+}
+
+#biarritz, #toulouse, #marseille {
+    display: none;
+}
+
+#cbiarritz, #ctoulouse, #cmarseille {
+    display: none;
+}
+
+.carteFrance {
+    margin-top: 20%;
+    max-width: 80%;
+}
+
+.carteFranceBiarritz {
+    margin-top: 20%;
+    max-width: 80%;
+}
+
+.carteFranceToulouse {
+    margin-top: 20%;
+    max-width: 80%;
+}
+
+.carteMarseille {
+    margin-top: 20%;
+    max-width: 80%;
+}
+
+.paris {
+    position: absolute;
+    border: transparent;
+    top: 35%;
+    left: 36%;
+    width: 8%;
+    height: 8%;
+}
+
+.biarritz {
+    position: absolute;
+    border: transparent;
+    top: 77%;
+    left: 15%;
+    width: 8%;
+    height: 8%;
+}
+
+.toulouse {
+    position: absolute;
+    border: transparent;
+    top: 78%;
+    left: 32%;
+    width: 8%;
+    height: 8%;
+}
+
+.marseille {
+    position: absolute;
+    border: transparent;
+    top: 79%;
+    left: 54%;
+    width: 8%;
+    height: 8%;
+}
+
+.lien{
+    color:black;
+}

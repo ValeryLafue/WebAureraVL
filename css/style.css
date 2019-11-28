@@ -1,0 +1,329 @@
+body,
+html {
+    background-color: #ececec;
+    height: 100%;
+}
+
+.bg-light {
+    background-color: #ececec !important;
+    height: 70px;
+}
+
+@viewport {
+    width: device-width;
+    /* largeur du viewport */
+    zoom: 1;
+    /* zoom initial à 1.0 (et clin d'oeil aux fans d'IE6/7) */
+}
+
+
+/* SMACSS...
+Base
+Layout
+Module
+State
+Theme
+*/
+
+
+/* BEM... Blocks, Elements and Modifiers
+Box
+Border
+Background
+Text
+Other
+*/
+
+
+/* ________________________________________*\
+|                                           |
+| $ alerte version mobile                   |
+|                                           |
+\*_________________________________________*/
+
+.alerte {
+    text-align: center;
+    font-size: 10vw;
+    display: none;
+}
+
+@media (min-width: 992px) {
+    .nav-item {
+        margin-top: 1.5em;
+        margin-right: 2.5em;
+    }
+    /*    .alerte {
+        display: none;
+    } */
+}
+
+
+/* FIN alerte version mobile */
+
+
+/* barre de navigation */
+
+.navbar-logo {
+    width: 160px;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(244,202,24, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    transition: 0.8s color;
+    background-color: #ececec;
+    text-align: right;
+    margin-top: 0%;
+    font-size: 1.2vw;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #f4ca18;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #f4ca18;
+    transition: 0.5s color;
+    font-weight: 400;
+}
+
+
+/* fin barre de navigation */
+
+
+/* slogan accueil animation */
+
+div.separateurAccueil {
+    height: 1vw;
+}
+
+div.slide-left {
+    width: 3vw;
+    overflow: hidden;
+}
+
+
+/* div.slide-left-light {
+    width   : 100%;
+    overflow: hidden;
+} */
+
+div.slide-left p {
+    animation: slide-left 1500ms;
+    animation-fill-mode: both;
+    animation-delay: 500ms;
+    color: #f4ca18;
+    font-size: 5.7vw;
+    font-weight: 800;
+    line-height: 4vw;
+}
+
+.slide-left {
+    animation: slide-left 1500ms;
+    animation-fill-mode: both;
+    animation-delay: 500ms;
+    color: #f4ca18;
+    font-size: 5.7vw;
+    font-weight: 800;
+    line-height: 4vw;
+}
+
+div.slide-right {
+    width: 100%;
+    overflow: hidden;
+}
+
+div.slide-right-light {
+    width: 100%;
+    overflow: hidden;
+}
+
+div.slide-right p {
+    animation: slideIn 1500ms;
+    animation-fill-mode: both;
+    animation-delay: 500ms;
+    color: #f4ca18;
+    font-size: 5.7vw;
+    font-weight: 800;
+    line-height: 4vw;
+}
+
+div.slide-right-light p {
+    animation: slideIn 1500ms forwards;
+    margin-bottom: 0vw;
+    color: #f4ca18;
+    font-weight: 400;
+    font-size: 1.4vw;
+    vertical-align: top;
+}
+
+div.slide-right-light .efficace {
+    animation: slideIn 1500ms forwards;
+    margin-bottom: 0vw;
+    color: #f4ca18;
+    font-weight: 400;
+    font-size: 3.2vw;
+}
+
+div.slide-down {
+    width: 100%;
+    overflow: hidden;
+}
+
+div.slide-down img {
+    animation: slideDown 1500ms forwards;
+    animation-delay: 1000ms;
+    animation-fill-mode: both;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+@keyframes slide-left {
+    from {
+        margin-left: 100%;
+        width: 300%;
+        opacity: 0;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+        opacity: 1;
+    }
+}
+
+@keyframes slide-right {
+    from {
+        margin-right: 100%;
+        width: 300%;
+        opacity: 0;
+    }
+    to {
+        margin-right: 0%;
+        width: 100%;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes slideDown {
+    0% {
+        transform: translateY(-200px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes slideDown {
+    0% {
+        transform: translateY(-200px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideDown {
+    0% {
+        transform: translateY(-200px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+/* fin slogan accueil animation */
+
+.texteScrollable {
+    height: 300px;
+    overflow-y: scroll;
+    border-right: solid black 1px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: #ececec;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #f4ca18;
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #f4ca18;
+}
+
+#partner {
+    position: relative;
+    margin-top: 6vw;
+    margin-left: 1vw;
+}
+
+.mention {
+    font-size: 11px;
+    font-weight: 600;
+    color: grey;
+    margin-bottom: 5px;
+    padding-left: 25px;
+}

@@ -1,0 +1,106 @@
+div.titre p {
+    color: #f4ca18;
+    font-size: 5vw;
+    font-weight: 1000;
+    line-height: 1em;
+    text-align: right;
+}
+
+div.separateurSolutions {
+    height: 100px;
+}
+
+div.business {
+    opacity: 1;
+    animation: appear 1s;
+    animation-fill-mode: both;
+    animation-delay: 0.2s;
+}
+
+div.integre {
+    opacity: 1;
+    animation: appear 1s;
+    animation-fill-mode: both;
+    animation-delay: 0.6s;
+}
+
+div.tmi {
+    opacity: 1;
+    animation: appear 1s;
+    animation-fill-mode: both;
+    animation-delay: 1s;
+}
+
+div.initiatives {
+    opacity: 1;
+    animation: appear 1s;
+    animation-fill-mode: both;
+    animation-delay: 1.5s;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.solutions {
+    padding-bottom: 3em;
+    padding-right: 3em;
+}
+
+.solutions>a>p {
+    text-align: justify;
+}
+
+div.solutions a {
+    color: black;
+}
+
+div.solutions a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+div.solutions svg line {
+    transform: scale(1, 1);
+    transform-origin: left center;
+    transition: 1s transform cubic-bezier(.03, .61, .39, .99);
+}
+
+div.solutions a:hover svg line {
+    transform: scale(1.6, 1);
+    transform-origin: left center;
+    transition: 1.4s transform cubic-bezier(.03, .61, .39, .99);
+}
+
+.arrow {
+    height: 100px;
+    margin-bottom: 30px;
+    transition: 0.8s;
+}
+
+.arrow:hover {
+    height: 108px;
+    transform: translate(-17px);
+    transition: 0.8s;
+}
+
+.arrowRight {
+    height: 100px;
+    margin-bottom: 30px;
+    transition: 0.8s;
+}
+
+.arrowRight:hover {
+    height: 108px;
+    transform: translate(17px);
+    transition: 0.8s;
+}
+
+.titreColle {
+    padding-right: 0;
+}

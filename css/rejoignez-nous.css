@@ -1,0 +1,45 @@
+.list-group-item, .list-group-item:hover {
+    background-color: #ececec;
+    border: none;
+    padding: 5px 20px;
+    font-weight: bold;
+}
+
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+    z-index: 2;
+    color: #ffffff;
+    background-color: #ececec;
+    border: none;
+}
+
+.scrollJobs {
+    max-height: 150px;
+    overflow-y: scroll;
+    border-right: solid black 1px;
+    -webkit-overflow-scrolling: touch;
+    padding-right: 20px;
+}
+
+.descriptif {
+    text-align: center;
+}
+
+.boutonsEmploi {
+    padding-top: 20px;
+}
+
+.boutonEmploi {
+    margin: 0px 10px;
+}
+
+.boutonLinkedin {
+    margin: 0px 10px;
+    border-radius: 6px;
+    font-weight: 700;
+}
+
+.logoGold {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
