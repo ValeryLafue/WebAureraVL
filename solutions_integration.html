@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/solutions/solution_integration.css" />
+    <link rel="stylesheet" href="css/solution.css" />
+    <link rel="icon" href="img/logos/favicon.ico" />
+    <title>Aurera</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="accueil.html">
+            <img src="img/logos/logo_Aurera_BLUE.svg" width="160px" alt="">
+        </a>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link" href="accueil.html">ACCUEIL</a>
+                <a class="nav-item nav-link active" href="solutions.html">SOLUTIONS</a>
+                <a class="nav-item nav-link" href="equipe.html">ÉQUIPE</a>
+                <a class="nav-item nav-link" href="story.html">NOTRE HISTOIRE</a>
+                <a class="nav-item nav-link" href="rejoignez-nous.html">REJOIGNEZ-NOUS</a>
+                <a class="nav-item nav-link" href="contact.html">CONTACT</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-1 boutonRetour" id="espace">
+            </div>
+            <div class="col-1 boutonRetour" id="boutonRetour">
+                <div class="retour">
+                    <a href="solutions.html">
+                        <img class=arrow src="img/icons/arrow_left.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="col-5 groupeBoutons" id="boutonsJaune">
+                <a class="btn btn-lg btn-block btn-jaune mx-auto d-block boutonUneLigne" id="bouton1" onclick="openNav1()">DATA & IA</a>
+                <a class="btn btn-lg btn-block btn-jaune mx-auto d-block boutonUneLigne" id="bouton2" onclick="openNav2()">Modern Workplace</a>
+                <a class="btn btn-lg btn-block btn-jaune mx-auto d-block" id="bouton3" onclick="openNav3()">Modern Application<br>Development</a>
+                <a class="btn btn-lg btn-block btn-jaune mx-auto d-block boutonUneLigne" id="bouton4" onclick="openNav4()">Azure Security Lab</a>
+            </div>
+            <div class="col-5 titreColle">
+                <div class="titre">
+                    <p>INTEGRATION</p>
+                </div>
+            </div>
+            <div id="panel1" class="sidenav">
+                <div class="row panelSolutions">
+                    <div class="col-2 fermeture" id="fleche1">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                            <img class=arrowRight src="img/icons/arrow_right.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-10">
+                        <div class="descriptifSolutions" id="descriptif1">
+                            <h5>DATA & AI</h5>
+                            <br>
+                            <p>Nous concevons des applications métiers modernes et collaboratives basées sur les services de la plateforme Microsoft et autres solutions complémentaires.
+                            </p>
+                            <p> Nous vous accompagnons dans le développement de ces applications innovantes sur des scénarios B2B ou B2C en repensant l’expérience utilisateur, et ce, toujours dans le but de booster la satisfaction client et de promouvoir
+                                davantage la collaboration moderne.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="panel2" class="sidenav">
+                <div class="row panelSolutions">
+                    <div class="col-2 fermeture" id="fleche2">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                            <img class=arrowRight src="img/icons/arrow_right.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-10">
+                        <div class="descriptifSolutions" id="descriptif2">
+                            <h5>MODERN WORKPLACE</h5>
+                            <br>
+                            <p>Une transformation digitale aboutie passe par une très forte évolution de l'environnement de travail en favorisant collaboration, efficacité et nomadisme; sans compromis sur la sécurité.
+                            </p>
+                            <p>La technologie Microsoft 365 propose un ensemble de services qui simplifie et accélère la mise en place de cette transformation.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="panel3" class="sidenav">
+                <div class="row panelSolutions">
+                    <div class="col-2 fermeture" id="fleche3">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                            <img class=arrowRight src="img/icons/arrow_right.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-10">
+                        <div class="descriptifSolutions" id="descriptif3">
+                            <h5>MODERN APPLICATION DEVELOPMENT</h5>
+                            <br>
+                            <p>Notre approche est basée sur un objectif de réduction du temps de développement avec mise en place d'une forge logicielle dédiée à votre projet.
+                            </p>
+                            <p>Que ce soit dans un environnement Azure ou OnPremise, nos consultants sont forts d'une approche DevOps et Agile et prennent en compte les contraintes légales dans la mise en œuvre des projets.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="panel4" class="sidenav">
+                <div class="row panelSolutions">
+                    <div class="col-2 fermeture" id="fleche4">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                            <img class=arrowRight src="img/icons/arrow_right.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-10">
+                        <div class="descriptifSolutions" id="descriptif4">
+                            <h5>AZURE SECURITY LAB</h5>
+                            <br>
+                            <p>Nous pouvons mettre à votre disposition un environnement de test iso à votre configuration vous permettant de tester en conditions réelles la sécurité de votre plateforme pour vérifier si elle est capable de résister aux attaques
+                                des pirates informatiques.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script>
+        function openNav1() {
+            document.getElementById("panel1").style.width = "60%";
+            document.getElementById("panel2").style.width = "0";
+            document.getElementById("panel3").style.width = "0";
+            document.getElementById("panel4").style.width = "0";
+
+            document.getElementById("bouton1").style.opacity = "1";
+            document.getElementById("bouton2").style.opacity = "0.7";
+            document.getElementById("bouton3").style.opacity = "0.7";
+            document.getElementById("bouton4").style.opacity = "0.7";
+
+            document.getElementById("descriptif2").style.display = "none";
+            document.getElementById("fleche2").style.display = "none";
+
+            document.getElementById("descriptif3").style.display = "none";
+            document.getElementById("fleche3").style.display = "none";
+
+            document.getElementById("descriptif4").style.display = "none";
+            document.getElementById("fleche4").style.display = "none";
+
+            setTimeout(function() {
+                document.getElementById("boutonRetour").style.display = "none";
+                document.getElementById("espace").style.display = "none";
+            }, 400);
+
+            setTimeout(function() {
+                document.getElementById("descriptif1").style.display = "block";
+                document.getElementById("fleche1").style.display = "block";
+            }, 700);
+
+        }
+
+        function openNav2() {
+            document.getElementById("panel2").style.width = "60%";
+            document.getElementById("panel1").style.width = "0";
+            document.getElementById("panel3").style.width = "0";
+            document.getElementById("panel4").style.width = "0";
+
+            document.getElementById("bouton1").style.opacity = "0.7";
+            document.getElementById("bouton2").style.opacity = "1";
+            document.getElementById("bouton3").style.opacity = "0.7";
+            document.getElementById("bouton4").style.opacity = "0.7";
+
+            document.getElementById("descriptif1").style.display = "none";
+            document.getElementById("fleche1").style.display = "none";
+
+            document.getElementById("descriptif3").style.display = "none";
+            document.getElementById("fleche3").style.display = "none";
+
+            document.getElementById("descriptif4").style.display = "none";
+            document.getElementById("fleche4").style.display = "none";
+
+            setTimeout(function() {
+                document.getElementById("boutonRetour").style.display = "none";
+                document.getElementById("espace").style.display = "none";
+            }, 400);
+
+            setTimeout(function() {
+                document.getElementById("descriptif2").style.display = "block";
+                document.getElementById("fleche2").style.display = "block";
+            }, 700);
+
+        }
+
+        function openNav3() {
+            document.getElementById("panel3").style.width = "60%";
+            document.getElementById("panel1").style.width = "0";
+            document.getElementById("panel2").style.width = "0";
+            document.getElementById("panel4").style.width = "0";
+
+            document.getElementById("bouton1").style.opacity = "0.7";
+            document.getElementById("bouton2").style.opacity = "0.7";
+            document.getElementById("bouton3").style.opacity = "1";
+            document.getElementById("bouton4").style.opacity = "0.7";
+
+            document.getElementById("descriptif2").style.display = "none";
+            document.getElementById("fleche2").style.display = "none";
+
+            document.getElementById("descriptif1").style.display = "none";
+            document.getElementById("fleche1").style.display = "none";
+
+            document.getElementById("descriptif4").style.display = "none";
+            document.getElementById("fleche4").style.display = "none";
+
+            setTimeout(function() {
+                document.getElementById("boutonRetour").style.display = "none";
+                document.getElementById("espace").style.display = "none";
+            }, 400);
+
+            setTimeout(function() {
+                document.getElementById("descriptif3").style.display = "block";
+                document.getElementById("fleche3").style.display = "block";
+            }, 700);
+
+        }
+
+        function openNav4() {
+            document.getElementById("panel4").style.width = "60%";
+            document.getElementById("panel2").style.width = "0";
+            document.getElementById("panel3").style.width = "0";
+            document.getElementById("panel1").style.width = "0";
+
+            document.getElementById("bouton1").style.opacity = "0.7";
+            document.getElementById("bouton2").style.opacity = "0.7";
+            document.getElementById("bouton3").style.opacity = "0.7";
+            document.getElementById("bouton4").style.opacity = "1";
+
+            document.getElementById("descriptif2").style.display = "none";
+            document.getElementById("fleche2").style.display = "none";
+
+            document.getElementById("descriptif3").style.display = "none";
+            document.getElementById("fleche3").style.display = "none";
+
+            document.getElementById("descriptif1").style.display = "none";
+            document.getElementById("fleche1").style.display = "none";
+
+            setTimeout(function() {
+                document.getElementById("boutonRetour").style.display = "none";
+                document.getElementById("espace").style.display = "none";
+            }, 400);
+
+            setTimeout(function() {
+                document.getElementById("descriptif4").style.display = "block";
+                document.getElementById("fleche4").style.display = "block";
+            }, 700);
+
+        }
+
+        function closeNav() {
+
+            document.getElementById("panel1").style.width = "0";
+            document.getElementById("panel2").style.width = "0";
+            document.getElementById("panel3").style.width = "0";
+            document.getElementById("panel4").style.width = "0";
+
+            document.getElementById("bouton1").style.opacity = "0.7";
+            document.getElementById("bouton2").style.opacity = "0.7";
+            document.getElementById("bouton3").style.opacity = "0.7";
+            document.getElementById("bouton4").style.opacity = "0.7";
+
+            document.getElementById("descriptif1").style.display = "none";
+            document.getElementById("fleche1").style.display = "none";
+
+            document.getElementById("descriptif2").style.display = "none";
+            document.getElementById("fleche2").style.display = "none";
+
+            document.getElementById("descriptif3").style.display = "none";
+            document.getElementById("fleche3").style.display = "none";
+
+            document.getElementById("descriptif4").style.display = "none";
+            document.getElementById("fleche4").style.display = "none";
+
+            setTimeout(function() {
+                document.getElementById("boutonRetour").style.display = "block";
+                document.getElementById("espace").style.display = "block";
+            }, 400);
+        }
+    </script>
+
+    <!-- Footer -->
+    <footer class="page-footer fixed-bottom">
+        <div>
+            <a href="mentions_legales.html" class="mention">Mentions Légales</a>
+        </div>
+    </footer>
+    <!-- Footer -->
+
+</body>
+
+</html>

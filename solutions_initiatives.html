@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/solutions/solution_initiatives.css" />
+    <link rel="stylesheet" href="css/solution.css" />
+    <link rel="icon" href="img/logos/favicon.ico" />
+    <title>Aurera</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="accueil.html">
+            <img src="img/logos/logo_Aurera_BLUE.svg" width="160px" alt="">
+        </a>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link" href="accueil.html">ACCUEIL</a>
+                <a class="nav-item nav-link active" href="solutions.html">SOLUTIONS</a>
+                <a class="nav-item nav-link" href="equipe.html">ÉQUIPE</a>
+                <a class="nav-item nav-link" href="story.html">NOTRE HISTOIRE</a>
+                <a class="nav-item nav-link" href="rejoignez-nous.html">REJOIGNEZ-NOUS</a>
+                <a class="nav-item nav-link" href="contact.html">CONTACT</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-1 boutonRetour" id="espace">
+            </div>
+            <div class="col-1 boutonRetour" id="boutonRetour">
+                <div class="retour">
+                    <a href="solutions.html">
+                        <img class=arrow src="img/icons/arrow_left.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="col-5 groupeBoutons" id="boutonsJaune">
+                <a class="btn btn-lg btn-block btn-jaune mx-auto d-block" id="bouton1" onclick="openNav1()">My Coach
+                    365<br>Learning</a>
+                <a class="btn btn-lg btn-block btn-jaune mx-auto d-block" id="bouton2" onclick="openNav2()">L'expertise<br>Iform</a>
+                <a class="btn btn-lg btn-block btn-jaune mx-auto d-block boutonUneLigne" id="bouton3" onclick="openNav3()">Media Speech</a>
+            </div>
+            <div class="col-5 titreColle">
+                <div class="titre">
+                    <p>INITIATIVES</p>
+                </div>
+            </div>
+            <div id="panel1" class="sidenav">
+                <div class="row panelSolutions">
+                    <div class="col-2 fermeture" id="fleche1">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                            <img class=arrowRight src="img/icons/arrow_right.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-10">
+                        <div class="descriptifSolutions" id="descriptif1">
+                            <h5>MYCOACH 365 LEARNING</h5>
+                            <br>
+                            <p>Issue de notre offre de blended learning, MyCoach 365 Learning est LA solution pour être toujours en avance sur les fonctionnalités Office 365 et ainsi exploiter au mieux vos outils !
+                            </p>
+                            <p>Ces ressources sous divers formats sont mises à votre disposition régulièrement pour un apprentissage en continu.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="panel2" class="sidenav">
+                <div class="row panelSolutions">
+                    <div class="col-2 fermeture" id="fleche2">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                            <img class=arrowRight src="img/icons/arrow_right.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-10">
+                        <div class="descriptifSolutions" id="descriptif2">
+                            <h5>LE SAVOIR-FAIRE IFORM</h5>
+                            <br>
+                            <p>Avec IFORM nous disposons de ressources complémentaires en termes de formation et d'accompagnement. IFORM est Leader depuis plus de 10 ans dans la formation professionnelle, et accompagne ses clients avec succès grâce à l'expertise
+                                de ses formateurs.
+                            </p>
+                            <p>IFORM est partenaire learning de Microsoft et est habilité à commercialiser et délivrer les cours officiels de l'éditeur.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="panel3" class="sidenav">
+                <div class="row panelSolutions">
+                    <div class="col-2 fermeture" id="fleche3">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                            <img class=arrowRight src="img/icons/arrow_right.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-10">
+                        <div class="descriptifSolutions" id="descriptif3">
+                            <h5>MEDIA SPEECH</h5>
+                            <br>
+                            <p>Quand bien même il existe différents canaux de communication, le premier canal et le préféré des consommateurs reste l'expression orale. A ce jour les conversations ne sont pas ou peu exploitées, avec la solution Media Speech
+                                nous sommes en mesure de vous apporter une transcription fine et précise de vos audios et vidéos, bâtie sur un environnement Microsoft Azure.
+                            </p>
+                            <p>Cette initiative est issue de notre partenariat avec Bertin IT.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script>
+        function openNav1() {
+            document.getElementById("panel1").style.width = "60%";
+            document.getElementById("panel2").style.width = "0";
+            document.getElementById("panel3").style.width = "0";
+
+            document.getElementById("bouton1").style.opacity = "1";
+            document.getElementById("bouton2").style.opacity = "0.7";
+            document.getElementById("bouton3").style.opacity = "0.7";
+
+            document.getElementById("descriptif2").style.display = "none";
+            document.getElementById("fleche2").style.display = "none";
+
+            document.getElementById("descriptif3").style.display = "none";
+            document.getElementById("fleche3").style.display = "none";
+
+            setTimeout(function() {
+                document.getElementById("boutonRetour").style.display = "none";
+                document.getElementById("espace").style.display = "none";
+            }, 400);
+
+            setTimeout(function() {
+                document.getElementById("descriptif1").style.display = "block";
+                document.getElementById("fleche1").style.display = "block";
+            }, 700);
+
+        }
+
+        function openNav2() {
+            document.getElementById("panel2").style.width = "60%";
+            document.getElementById("panel1").style.width = "0";
+            document.getElementById("panel3").style.width = "0";
+
+            document.getElementById("bouton1").style.opacity = "0.7";
+            document.getElementById("bouton2").style.opacity = "1";
+            document.getElementById("bouton3").style.opacity = "0.7";
+
+            document.getElementById("descriptif1").style.display = "none";
+            document.getElementById("fleche1").style.display = "none";
+
+            document.getElementById("descriptif3").style.display = "none";
+            document.getElementById("fleche3").style.display = "none";
+
+            setTimeout(function() {
+                document.getElementById("boutonRetour").style.display = "none";
+                document.getElementById("espace").style.display = "none";
+            }, 400);
+
+            setTimeout(function() {
+                document.getElementById("descriptif2").style.display = "block";
+                document.getElementById("fleche2").style.display = "block";
+            }, 700);
+
+        }
+
+        function openNav3() {
+            document.getElementById("panel3").style.width = "60%";
+            document.getElementById("panel1").style.width = "0";
+            document.getElementById("panel2").style.width = "0";
+
+            document.getElementById("bouton1").style.opacity = "0.7";
+            document.getElementById("bouton2").style.opacity = "0.7";
+            document.getElementById("bouton3").style.opacity = "1";
+
+            document.getElementById("descriptif2").style.display = "none";
+            document.getElementById("fleche2").style.display = "none";
+
+            document.getElementById("descriptif1").style.display = "none";
+            document.getElementById("fleche1").style.display = "none";
+
+            setTimeout(function() {
+                document.getElementById("boutonRetour").style.display = "none";
+                document.getElementById("espace").style.display = "none";
+            }, 400);
+
+            setTimeout(function() {
+                document.getElementById("descriptif3").style.display = "block";
+                document.getElementById("fleche3").style.display = "block";
+            }, 700);
+
+        }
+
+        function closeNav() {
+
+            document.getElementById("panel1").style.width = "0";
+            document.getElementById("panel2").style.width = "0";
+            document.getElementById("panel3").style.width = "0";
+
+            document.getElementById("bouton1").style.opacity = "0.7";
+            document.getElementById("bouton2").style.opacity = "0.7";
+            document.getElementById("bouton3").style.opacity = "0.7";
+
+            document.getElementById("descriptif1").style.display = "none";
+            document.getElementById("fleche1").style.display = "none";
+
+            document.getElementById("descriptif2").style.display = "none";
+            document.getElementById("fleche2").style.display = "none";
+
+            document.getElementById("descriptif3").style.display = "none";
+            document.getElementById("fleche3").style.display = "none";
+
+            setTimeout(function() {
+                document.getElementById("boutonRetour").style.display = "block";
+                document.getElementById("espace").style.display = "block";
+            }, 400);
+        }
+    </script>
+
+    <!-- Footer -->
+    <footer class="page-footer fixed-bottom">
+        <div>
+            <a href="mentions_legales.html" class="mention">Mentions Légales</a>
+        </div>
+    </footer>
+    <!-- Footer -->
+</body>
+
+</html>

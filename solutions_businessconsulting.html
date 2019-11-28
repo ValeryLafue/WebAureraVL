@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/solutions/solution_businessconsulting.css" />
+    <link rel="stylesheet" href="css/solution.css" />
+    <link rel="icon" href="img/logos/favicon.ico" />
+    <title>Aurera</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="accueil.html">
+            <img src="img/logos/logo_Aurera_BLUE.svg" width="160px" alt="">
+        </a>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link" href="accueil.html">ACCUEIL</a>
+                <a class="nav-item nav-link active" href="solutions.html">SOLUTIONS</a>
+                <a class="nav-item nav-link" href="equipe.html">ÉQUIPE</a>
+                <a class="nav-item nav-link" href="story.html">NOTRE HISTOIRE</a>
+                <a class="nav-item nav-link" href="rejoignez-nous.html">REJOIGNEZ-NOUS</a>
+                <a class="nav-item nav-link" href="contact.html">CONTACT</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid picture">
+        <div class="row">
+            <div class="col-1 boutonRetour" id="espace">
+            </div>
+            <div class="col-1 boutonRetour" id="boutonRetour">
+                <div class="retour">
+                    <a href="solutions.html">
+                        <img class=arrow src="img/icons/arrow_left.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="col-5 groupeBoutons" id="boutonsJaune">
+                <a class="btn btn-lg btn-block btn-jaune mx-auto d-block" id="boutonStrat" onclick="openNavStrat()">Stratégie et
+                    Conseil<br>aux DSI</a>
+                <a class="btn btn-lg btn-block btn-jaune mx-auto d-block" id="boutonAcc" onclick="openNavAcc()">Accompagnement<br>au
+                    changement</a>
+                <a class="btn btn-lg btn-block btn-jaune mx-auto d-block boutonUneLigne" id="boutonAud" onclick="openNavAud()">Audit</a>
+            </div>
+            <div class="col-5 titreColle">
+                <div class="titre">
+                    <p>BUSINESS</p>
+                    <p>CONSULTING</p>
+                </div>
+            </div>
+            <div id="strategie" class="sidenav">
+                <div class="row panelSolutions">
+                    <div class="col-2 fermeture" id="flecheStrat">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                            <img class=arrowRight src="img/icons/arrow_right.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-10">
+                        <div class="descriptifSolutions" id="descriptifStrat">
+                            <h5>STRATÉGIE ET CONSEIL AUX DSI</h5>
+                            <br>
+                            <p>Notre approche concilie une vision multidimensionnelle : technologie, budget, durée, adoption des utilisateurs, compétences, …
+                            </p>
+                            <p> Notre mission est de vous accompagner dans la définition des nouveaux scénarios de modernisation de votre système d’information tout en respectant les contraintes d’alignement et d’urbanisation. Et en prenant également en compte
+                                les évolutions des applications métiers.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="accompagnement" class="sidenav">
+                <div class="row panelSolutions">
+                    <div class="col-2 fermeture" id="flecheAcc">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                            <img class=arrowRight src="img/icons/arrow_right.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-10">
+                        <div class="descriptifSolutions" id="descriptifAcc">
+                            <h5>ACCOMPAGNEMENT AU CHANGEMENT</h5>
+                            <br>
+                            <p>Notre solution unique MyCoach 365, construite autour du concept de blended learning, vous donne la totalité des clés nécessaires pour accompagner vos utilisateurs de la solution Office 365 dans l’apprentissage de nouveaux usages.
+                            </p>
+                            <p> En savoir plus !
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="audit" class="sidenav">
+                <div class="row panelSolutions">
+                    <div class="col-2 fermeture" id="flecheAud">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                            <img class=arrowRight src="img/icons/arrow_right.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-10">
+                        <div class="descriptifSolutions" id="descriptifAud">
+                            <h5>AUDIT</h5>
+                            <br>
+                            <p>Dans un souci d’amélioration de la performance de votre SI, nous travaillons à dessiner, depuis le système source, une image claire et systémique des évolutions à venir. Tout cela afin d’éviter toute analyse hâtive.
+                            </p>
+                            <p> Nous avons également la possibilité de déployer des agents de monitoring et d’analyse.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script>
+        function openNavStrat() {
+            document.getElementById("strategie").style.width = "60%";
+            document.getElementById("accompagnement").style.width = "0";
+            document.getElementById("audit").style.width = "0";
+
+            document.getElementById("boutonStrat").style.opacity = "1";
+            document.getElementById("boutonAcc").style.opacity = "0.7";
+            document.getElementById("boutonAud").style.opacity = "0.7";
+
+            document.getElementById("descriptifAcc").style.display = "none";
+            document.getElementById("flecheAcc").style.display = "none";
+
+            document.getElementById("descriptifAud").style.display = "none";
+            document.getElementById("flecheAud").style.display = "none";
+
+            setTimeout(function() {
+                document.getElementById("boutonRetour").style.display = "none";
+                document.getElementById("espace").style.display = "none";
+            }, 400);
+
+            setTimeout(function() {
+                document.getElementById("descriptifStrat").style.display = "block";
+                document.getElementById("flecheStrat").style.display = "block";
+            }, 700);
+
+        }
+
+        function openNavAcc() {
+            document.getElementById("accompagnement").style.width = "60%";
+            document.getElementById("strategie").style.width = "0";
+            document.getElementById("audit").style.width = "0";
+
+            document.getElementById("boutonStrat").style.opacity = "0.7";
+            document.getElementById("boutonAcc").style.opacity = "1";
+            document.getElementById("boutonAud").style.opacity = "0.7";
+
+            document.getElementById("descriptifStrat").style.display = "none";
+            document.getElementById("flecheStrat").style.display = "none";
+
+            document.getElementById("descriptifAud").style.display = "none";
+            document.getElementById("flecheAud").style.display = "none";
+
+            setTimeout(function() {
+                document.getElementById("boutonRetour").style.display = "none";
+                document.getElementById("espace").style.display = "none";
+            }, 400);
+
+            setTimeout(function() {
+                document.getElementById("descriptifAcc").style.display = "block";
+                document.getElementById("flecheAcc").style.display = "block";
+            }, 700);
+
+        }
+
+        function openNavAud() {
+            document.getElementById("audit").style.width = "60%";
+            document.getElementById("strategie").style.width = "0";
+            document.getElementById("accompagnement").style.width = "0";
+
+            document.getElementById("boutonStrat").style.opacity = "0.7";
+            document.getElementById("boutonAcc").style.opacity = "0.7";
+            document.getElementById("boutonAud").style.opacity = "1";
+
+            document.getElementById("descriptifAcc").style.display = "none";
+            document.getElementById("flecheAcc").style.display = "none";
+
+            document.getElementById("descriptifStrat").style.display = "none";
+            document.getElementById("flecheStrat").style.display = "none";
+
+            setTimeout(function() {
+                document.getElementById("boutonRetour").style.display = "none";
+                document.getElementById("espace").style.display = "none";
+            }, 400);
+
+            setTimeout(function() {
+                document.getElementById("descriptifAud").style.display = "block";
+                document.getElementById("flecheAud").style.display = "block";
+            }, 700);
+
+        }
+
+        function closeNav() {
+
+            document.getElementById("strategie").style.width = "0";
+            document.getElementById("accompagnement").style.width = "0";
+            document.getElementById("audit").style.width = "0";
+
+            document.getElementById("boutonStrat").style.opacity = "0.7";
+            document.getElementById("boutonAcc").style.opacity = "0.7";
+            document.getElementById("boutonAud").style.opacity = "0.7";
+
+            document.getElementById("descriptifStrat").style.display = "none";
+            document.getElementById("flecheStrat").style.display = "none";
+
+            document.getElementById("descriptifAcc").style.display = "none";
+            document.getElementById("flecheAcc").style.display = "none";
+
+            document.getElementById("descriptifAud").style.display = "none";
+            document.getElementById("flecheAud").style.display = "none";
+
+            setTimeout(function() {
+                document.getElementById("boutonRetour").style.display = "block";
+                document.getElementById("espace").style.display = "block";
+            }, 400);
+        }
+    </script>
+
+    <!-- Footer -->
+    <footer class="page-footer fixed-bottom">
+        <div>
+            <a href="mentions_legales.html" class="mention">Mentions Légales</a>
+        </div>
+    </footer>
+    <!-- Footer -->
+</body>
+
+</html>

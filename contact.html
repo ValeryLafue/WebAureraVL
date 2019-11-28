@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="icon" href="img/logos/favicon.ico" />
+
+
+    <title>Contact Aurera</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="accueil.html">
+            <img src="img/logos/logo_Aurera_BLUE.svg" width="160px" alt="">
+        </a>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link" href="accueil.html">ACCUEIL</a>
+                <a class="nav-item nav-link" href="solutions.html">SOLUTIONS</a>
+                <a class="nav-item nav-link" href="equipe.html">ÉQUIPE</a>
+                <a class="nav-item nav-link" href="story.html">NOTRE HISTOIRE</a>
+                <a class="nav-item nav-link" href="rejoignez-nous.html">REJOIGNEZ-NOUS</a>
+                <a class="nav-item nav-link active" href="contact.html">CONTACT</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-6" id="cparis">
+                <img src="img/carte_contact.svg" alt="" class="carteFrance">
+                <a href="#" class="paris" onclick="openParis()"></a>
+                <a href="#" class="biarritz" onclick="openBiarritz()"></a>
+                <a href="#" class="toulouse" onclick="openToulouse()"></a>
+                <a href="#" class="marseille" onclick="openMarseille()"></a>
+                <a href="#" class="paris" onmouseover="openParis()"></a>
+                <a href="#" class="biarritz" onmouseover="openBiarritz()"></a>
+                <a href="#" class="toulouse" onmouseover="openToulouse()"></a>
+                <a href="#" class="marseille" onmouseover="openMarseille()"></a>
+            </div>
+            <div class="col-6" id="cbiarritz">
+                <img src="img/carte_contact_biarritz.svg" alt="" class="carteFranceBiarritz">
+                <a href="#" class="paris" onclick="openParis()"></a>
+                <a href="#" class="biarritz" onclick="openBiarritz()"></a>
+                <a href="#" class="toulouse" onclick="openToulouse()"></a>
+                <a href="#" class="marseille" onclick="openMarseille()"></a>
+                <a href="#" class="paris" onmouseover="openParis()"></a>
+                <a href="#" class="biarritz" onmouseover="openBiarritz()"></a>
+                <a href="#" class="toulouse" onmouseover="openToulouse()"></a>
+                <a href="#" class="marseille" onmouseover="openMarseille()"></a>
+            </div>
+            <div class="col-6" id="ctoulouse">
+                <img src="img/carte_contact_toulouse.svg" alt="" class="carteFranceToulouse">
+                <a href="#" class="paris" onclick="openParis()"></a>
+                <a href="#" class="biarritz" onclick="openBiarritz()"></a>
+                <a href="#" class="toulouse" onclick="openToulouse()"></a>
+                <a href="#" class="marseille" onclick="openMarseille()"></a>
+                <a href="#" class="paris" onmouseover="openParis()"></a>
+                <a href="#" class="biarritz" onmouseover="openBiarritz()"></a>
+                <a href="#" class="toulouse" onmouseover="openToulouse()"></a>
+                <a href="#" class="marseille" onmouseover="openMarseille()"></a>
+            </div>
+            <div class="col-6" id="cmarseille">
+                <img src="img/carte_contact_marseille.svg" alt="" class="carteMarseille">
+                <a href="#" class="paris" onclick="openParis()"></a>
+                <a href="#" class="biarritz" onclick="openBiarritz()"></a>
+                <a href="#" class="toulouse" onclick="openToulouse()"></a>
+                <a href="#" class="marseille" onclick="openMarseille()"></a>
+                <a href="#" class="paris" onmouseover="openParis()"></a>
+                <a href="#" class="biarritz" onmouseover="openBiarritz()"></a>
+                <a href="#" class="toulouse" onmouseover="openToulouse()"></a>
+                <a href="#" class="marseille" onmouseover="openMarseille()"></a>
+            </div>
+            <div class="col-6 texte" id="paris">
+                <h4>PARIS</h4>
+                <p>2 ter rue Louis Armand
+                </p>
+                <p>75015 PARIS</p>
+                <br>
+                <p><b>T.</b> <a class="lien" href="tel:+33170824686">01 70 82 46 86</a></p>
+                <p><b>M.</b> <a class="lien" href="mailto:contact@aurera.fr">contact@aurera.fr</a></p>
+            </div>
+            <div class="col-6 texte" id="biarritz">
+                <h4>BIARRITZ</h4>
+                <p>2 Terrasse Claude Shannon Technopole Izarbel
+                </p>
+                <p>64210 BIDART</p>
+                <br>
+                <p><b>T.</b> <a class="lien" href="tel:+33540254045">05 40 25 40 45</a></p>
+                <p><b>M.</b> <a class="lien" href="mailto:contact@aurera.fr">contact@aurera.fr</a></p>
+            </div>
+            <div class="col-6 texte" id="toulouse">
+                <h4>TOULOUSE</h4>
+                <p>4 rue Jean Giono
+                </p>
+                <p>31130 BALMA</p>
+                <br>
+                <p><b>T.</b> <a class="lien" href="tel:+33561343980">05 61 34 39 80</a></p>
+                <p><b>M.</b> <a class="lien" href="mailto:contact@aurera.fr">contact@aurera.fr</a></p>
+            </div>
+            <div class="col-6 texte" id="marseille">
+                <h4>MARSEILLE - AIX EN PROVENCE </h4>
+                <p>970 rue René Descartes</p>
+                <p>Bat. B – Horizon Sainte victoire </p>
+                <p>13100 AIX EN PROVENCE</p>
+                <br>
+                <p><b>T.</b> <a class="lien" href="tel:+33442221288">04 42 22 12 88</a></p>
+                <p><b>M.</b> <a class="lien" href="mailto:contact@aurera.fr">contact@aurera.fr</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+        function openParis() {
+            document.getElementById("paris").style.display = "block";
+            document.getElementById("biarritz").style.display = "none";
+            document.getElementById("toulouse").style.display = "none";
+            document.getElementById("marseille").style.display = "none";
+            document.getElementById("cparis").style.display = "block";
+            document.getElementById("cbiarritz").style.display = "none";
+            document.getElementById("ctoulouse").style.display = "none";
+            document.getElementById("cmarseille").style.display = "none";
+        }
+
+        function openBiarritz() {
+            document.getElementById("paris").style.display = "none";
+            document.getElementById("biarritz").style.display = "block";
+            document.getElementById("toulouse").style.display = "none";
+            document.getElementById("marseille").style.display = "none";
+            document.getElementById("cparis").style.display = "none";
+            document.getElementById("cbiarritz").style.display = "block";
+            document.getElementById("ctoulouse").style.display = "none";
+            document.getElementById("cmarseille").style.display = "none";
+        }
+
+        function openToulouse() {
+            document.getElementById("paris").style.display = "none";
+            document.getElementById("biarritz").style.display = "none";
+            document.getElementById("toulouse").style.display = "block";
+            document.getElementById("marseille").style.display = "none";
+            document.getElementById("cparis").style.display = "none";
+            document.getElementById("cbiarritz").style.display = "none";
+            document.getElementById("ctoulouse").style.display = "block";
+            document.getElementById("cmarseille").style.display = "none";
+        }
+
+        function openMarseille() {
+            document.getElementById("paris").style.display = "none";
+            document.getElementById("biarritz").style.display = "none";
+            document.getElementById("toulouse").style.display = "none";
+            document.getElementById("marseille").style.display = "block";
+            document.getElementById("cparis").style.display = "none";
+            document.getElementById("cbiarritz").style.display = "none";
+            document.getElementById("ctoulouse").style.display = "none";
+            document.getElementById("cmarseille").style.display = "block";
+        }
+    </script>
+    <!-- Footer -->
+    <footer class="page-footer fixed-bottom">
+        <div>
+            <a href="mentions_legales.html" class="mention">Mentions Légales</a>
+        </div>
+    </footer>
+    <!-- Footer -->
+</body>
+
+</html>
